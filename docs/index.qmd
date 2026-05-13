@@ -1,0 +1,60 @@
+---
+title: "Home"
+---
+
+::: {.hero}
+::: {.hero-copy}
+<span class="eyebrow">Portfolio website · Quarto</span>
+
+# Hi, I'm Evan.
+
+I'm a student interested in data analytics, automation, markets, and building practical things that turn messy information into clear decisions. This site collects a few pieces of work, learning reflections, and personal interests in one clean place.
+
+::: {.portfolio-button-row}
+[View my project](project.qmd){.portfolio-btn .portfolio-btn-primary}
+[See a data visualisation](data-visualization.qmd){.portfolio-btn .portfolio-btn-outline}
+:::
+:::
+
+::: {.hero-visual}
+![](assets/profile-card.svg){fig-alt="Illustration of data charts, code and tennis representing Evan's interests"}
+:::
+:::
+
+## What this site shows {.section-title}
+
+::: {.portfolio-grid}
+::: {.portfolio-card}
+### Data and automation
+I enjoy using code to reduce repetitive work, test ideas properly, and present outputs in a way that is easy to understand.
+:::
+
+::: {.portfolio-card}
+### Learning by building
+My best learning usually happens when I turn concepts into a real artefact: a dashboard, a report, a small model, or a website like this.
+:::
+
+::: {.portfolio-card}
+### Outside class
+Tennis is one of my favourite hobbies because it combines technique, discipline, timing, and constant improvement.
+:::
+:::
+
+## Current focus {.section-title}
+
+::: {.portfolio-grid .portfolio-grid-two}
+::: {.portfolio-card}
+### What I am improving
+- Building clearer data stories, not just charts.
+- Writing cleaner reports using Quarto.
+- Making technical work presentable to non-technical readers.
+:::
+
+::: {.portfolio-card}
+### What I value in projects
+- Simple structure.
+- Honest explanation of assumptions.
+- Visuals that support the message.
+- Work that looks polished enough to share.
+:::
+:::

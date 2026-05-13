@@ -1,0 +1,41 @@
+---
+title: "Hobbies"
+---
+
+::: {.portfolio-page-header}
+# Hobbies and Interests
+
+A more personal page about the things I enjoy outside normal coursework.
+:::
+
+::: {.portfolio-grid}
+::: {.portfolio-card}
+### Tennis
+Tennis is my main sport. I like it because small technical changes can make a big difference: timing, footwork, spacing, and decision-making all matter.
+:::
+
+::: {.portfolio-card}
+### Markets and data
+I enjoy following markets because they combine economics, psychology, uncertainty, and data. It is a useful area for practising careful analysis.
+:::
+
+::: {.portfolio-card}
+### Building small tools
+I like creating small systems that make life easier, whether that is a dashboard, automation script, or clean report template.
+:::
+:::
+
+## Things I want to learn next {.section-title}
+
+::: {.portfolio-tag-list}
+<span class="portfolio-tag">Better dashboards</span>
+<span class="portfolio-tag">Cleaner writing</span>
+<span class="portfolio-tag">R and Quarto</span>
+<span class="portfolio-tag">Data storytelling</span>
+<span class="portfolio-tag">Automation</span>
+<span class="portfolio-tag">Tennis technique</span>
+:::
+
+## Why this matters {.section-title}
+
+The common theme is improvement. Whether it is sport, coding, or communication, I enjoy breaking a problem down, testing what works, and making the next version better.

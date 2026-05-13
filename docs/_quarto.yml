@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Evan Tyk"
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: project.qmd
+        text: Project
+      - href: data-visualization.qmd
+        text: Data Viz
+      - href: hobbies.qmd
+        text: Hobbies
+      - href: genai-reflection.qmd
+        text: GenAI Reflection
+  page-footer:
+    center: "Built with Quarto · Evan Tyk"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
+
+editor: visual

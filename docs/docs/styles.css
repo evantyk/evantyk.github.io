@@ -1,12 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Project | Evan Tyk</title>
-  <meta name="description" content="Portfolio website built with Quarto by Evan Tyk.">
-  <style>
-/* Portfolio website styling - inlined for GitHub Pages reliability */
+/* Portfolio website styling */
 :root {
   --bg: #f7f8fb;
   --surface: #ffffff;
@@ -343,42 +335,3 @@ a {
     justify-content: flex-start;
   }
 }
-
-  </style>
-</head>
-<body>
-  <nav class="site-nav" aria-label="Main navigation">
-    <div class="nav-inner">
-      <a class="brand" href="index.html">Evan Tyk</a>
-      <div class="nav-links"><a class="" href="index.html">Home</a><a class="active" href="project.html">Project</a><a class="" href="data-visualization.html">Data Viz</a><a class="" href="hobbies.html">Hobbies</a><a class="" href="genai-reflection.html">GenAI Reflection</a></div>
-    </div>
-  </nav>
-  <main class="content">
-
-<section class="portfolio-page-header"><h1>Project: Market Regime Signal Tracker</h1><p>A coursework-style portfolio project showing how data, rules, and reporting can be combined into a practical decision-support workflow.</p></section>
-<div class="portfolio-callout-box">The goal was not just to create a model output, but to make the output understandable: what signal is produced, why it changed, and how someone should read it responsibly.</div>
-<h2 class="section-title">Why I am proud of it</h2>
-<section class="portfolio-grid portfolio-grid-two">
-  <article class="portfolio-card"><h3>The problem</h3><p>Market data can move quickly, and raw numbers are hard to interpret without structure. A useful dashboard should reduce noise and highlight what matters.</p></article>
-  <article class="portfolio-card"><h3>The solution</h3><p>The project organises signals into a readable workflow: clean inputs, rule-based scoring, summary metrics, and a final report that can be checked before acting on the output.</p></article>
-</section>
-<h2 class="section-title">What the project includes</h2>
-<section class="portfolio-timeline">
-  <div class="portfolio-timeline-item"><strong>1. Data inputs</strong><div>Collect relevant market indicators, clean the data, and keep the workflow reproducible.</div></div>
-  <div class="portfolio-timeline-item"><strong>2. Signal logic</strong><div>Convert multiple indicators into a simple position or risk score that is easier to interpret than raw data.</div></div>
-  <div class="portfolio-timeline-item"><strong>3. Testing</strong><div>Compare the strategy against a benchmark, check drawdowns, and avoid judging performance from one lucky period only.</div></div>
-  <div class="portfolio-timeline-item"><strong>4. Reporting</strong><div>Summarise the signal, risk notes, and key charts in a format that someone else can read quickly.</div></div>
-</section>
-<h2 class="section-title">Skills demonstrated</h2>
-<section class="portfolio-grid">
-  <article class="portfolio-card"><h3>Data handling</h3><p>Cleaning, organising, and validating input data before using it in analysis.</p></article>
-  <article class="portfolio-card"><h3>Communication</h3><p>Turning technical output into short explanations, charts, and decision notes.</p></article>
-  <article class="portfolio-card"><h3>Responsible analysis</h3><p>Thinking about testing, uncertainty, and limitations instead of only showing the best result.</p></article>
-</section>
-<h2 class="section-title">Reflection</h2>
-<p>This project reminded me that a good technical project is not only about the model. The presentation matters too. If the logic is difficult to follow, the output becomes less useful, even if the code is working. A clear Quarto website helps show the idea in a cleaner and more professional way.</p>
-
-  </main>
-  <footer class="site-footer">Built with Quarto · Evan Tyk</footer>
-</body>
-</html>

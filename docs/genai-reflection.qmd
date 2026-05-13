@@ -1,0 +1,39 @@
+---
+title: "GenAI Reflection"
+---
+
+::: {.portfolio-page-header}
+# Reflection on the Use of GenAI
+
+A short reflection on how generative AI was used while developing this website.
+:::
+
+## Tool used {.section-title}
+
+I used ChatGPT as a coding and writing assistant while preparing this Quarto portfolio website. The tool helped me plan the site structure, draft page content, improve the styling, and check whether the website met the lab requirements.
+
+## How it helped {.section-title}
+
+::: {.portfolio-grid .portfolio-grid-two}
+::: {.portfolio-card}
+### Structure
+GenAI helped turn a vague task into a clear website structure: homepage, project page, data visualisation page, hobbies page, and reflection page.
+:::
+
+::: {.portfolio-card}
+### Presentation
+It helped improve the visual design by suggesting responsive layouts, cards, headings, and cleaner CSS instead of leaving the website as a plain default template.
+:::
+:::
+
+## What was useful {.section-title}
+
+The most useful part was speed. Instead of starting from a blank page, I could generate a strong first draft, then review and adjust it. This made it easier to focus on whether the content was clear, whether the pages were connected properly, and whether the final site looked presentable.
+
+## What was challenging {.section-title}
+
+The main challenge is that GenAI can make content sound polished even when it is too generic. I still need to check whether the final website represents me accurately. I also need to verify the code instead of assuming everything works.
+
+## Final reflection {.section-title}
+
+GenAI is helpful as a support tool, especially for brainstorming, editing, and debugging. However, I should still make the final decisions myself. The best use is not to copy blindly, but to use the tool to move faster while still checking accuracy, originality, and whether the work fits the assignment requirements.

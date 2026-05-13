@@ -1,0 +1,11 @@
+---
+title: "About This Site"
+---
+
+::: {.portfolio-page-header}
+# About This Site
+
+This page is kept as a fallback from the original Quarto template. The main project page is now [Project](project.qmd).
+:::
+
+This portfolio was redesigned from the default starter website into a presentable Quarto site with a homepage, project page, data visualisation page, hobbies page, and GenAI reflection page.
