@@ -1,0 +1,74 @@
+---
+title: "Project"
+---
+
+::: {.page-header}
+# Project: Market Regime Signal Tracker
+
+A coursework-style portfolio project showing how data, rules, and reporting can be combined into a practical decision-support workflow.
+:::
+
+::: {.callout-box}
+The goal was not just to create a model output, but to make the output understandable: what signal is produced, why it changed, and how someone should read it responsibly.
+:::
+
+## Why I am proud of it {.section-title}
+
+::: {.grid .two}
+::: {.card}
+### The problem
+Market data can move quickly, and raw numbers are hard to interpret without structure. A useful dashboard should reduce noise and highlight what matters.
+:::
+
+::: {.card}
+### The solution
+The project organises signals into a readable workflow: clean inputs, rule-based scoring, summary metrics, and a final report that can be checked before acting on the output.
+:::
+:::
+
+## What the project includes {.section-title}
+
+::: {.timeline}
+::: {.timeline-item}
+<strong>1. Data inputs</strong>
+<div>Collect relevant market indicators, clean the data, and keep the workflow reproducible.</div>
+:::
+
+::: {.timeline-item}
+<strong>2. Signal logic</strong>
+<div>Convert multiple indicators into a simple position or risk score that is easier to interpret than raw data.</div>
+:::
+
+::: {.timeline-item}
+<strong>3. Testing</strong>
+<div>Compare the strategy against a benchmark, check drawdowns, and avoid judging performance from one lucky period only.</div>
+:::
+
+::: {.timeline-item}
+<strong>4. Reporting</strong>
+<div>Summarise the signal, risk notes, and key charts in a format that someone else can read quickly.</div>
+:::
+:::
+
+## Skills demonstrated {.section-title}
+
+::: {.grid}
+::: {.card}
+### Data handling
+Cleaning, organising, and validating input data before using it in analysis.
+:::
+
+::: {.card}
+### Communication
+Turning technical output into short explanations, charts, and decision notes.
+:::
+
+::: {.card}
+### Responsible analysis
+Thinking about testing, uncertainty, and limitations instead of only showing the best result.
+:::
+:::
+
+## Reflection {.section-title}
+
+This project reminded me that a good technical project is not only about the model. The presentation matters too. If the logic is difficult to follow, the output becomes less useful, even if the code is working. A clear Quarto website helps show the idea in a cleaner and more professional way.

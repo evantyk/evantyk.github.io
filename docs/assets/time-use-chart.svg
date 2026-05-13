@@ -1,0 +1,30 @@
+<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing project week hours by activity">
+  <rect width="960" height="560" rx="34" fill="#FFFFFF"/>
+  <text x="60" y="62" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#172033">Where the work went in one project week</text>
+  <text x="60" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5D6678">Sample study workflow hours: a simple chart built for a portfolio data visualisation page.</text>
+  <line x1="120" y1="430" x2="880" y2="430" stroke="#DCE4F5" stroke-width="2"/>
+  <line x1="120" y1="350" x2="880" y2="350" stroke="#EDF1FA" stroke-width="2"/>
+  <line x1="120" y1="270" x2="880" y2="270" stroke="#EDF1FA" stroke-width="2"/>
+  <line x1="120" y1="190" x2="880" y2="190" stroke="#EDF1FA" stroke-width="2"/>
+  <text x="75" y="435" font-family="Arial" font-size="14" fill="#5D6678">0h</text>
+  <text x="75" y="355" font-family="Arial" font-size="14" fill="#5D6678">3h</text>
+  <text x="75" y="275" font-family="Arial" font-size="14" fill="#5D6678">6h</text>
+  <text x="75" y="195" font-family="Arial" font-size="14" fill="#5D6678">9h</text>
+  <rect x="150" y="243" width="95" height="187" rx="16" fill="#3957E8"/>
+  <rect x="292" y="296" width="95" height="134" rx="16" fill="#5B7CFA"/>
+  <rect x="434" y="216" width="95" height="214" rx="16" fill="#14B8A6"/>
+  <rect x="576" y="323" width="95" height="107" rx="16" fill="#67B6F4"/>
+  <rect x="718" y="270" width="95" height="160" rx="16" fill="#172033"/>
+  <text x="175" y="232" font-family="Arial" font-size="18" font-weight="800" fill="#172033">7h</text>
+  <text x="317" y="285" font-family="Arial" font-size="18" font-weight="800" fill="#172033">5h</text>
+  <text x="459" y="205" font-family="Arial" font-size="18" font-weight="800" fill="#172033">8h</text>
+  <text x="601" y="312" font-family="Arial" font-size="18" font-weight="800" fill="#172033">4h</text>
+  <text x="743" y="259" font-family="Arial" font-size="18" font-weight="800" fill="#172033">6h</text>
+  <text x="145" y="468" font-family="Arial" font-size="15" fill="#172033">Research</text>
+  <text x="285" y="468" font-family="Arial" font-size="15" fill="#172033">Cleaning</text>
+  <text x="440" y="468" font-family="Arial" font-size="15" fill="#172033">Coding</text>
+  <text x="565" y="468" font-family="Arial" font-size="15" fill="#172033">Visuals</text>
+  <text x="718" y="468" font-family="Arial" font-size="15" fill="#172033">Writing</text>
+  <rect x="60" y="504" width="840" height="1" fill="#E4E8F2"/>
+  <text x="60" y="532" font-family="Arial" font-size="14" fill="#5D6678">Takeaway: the final chart/report is only one part of the workflow; planning and explanation matter just as much as code.</text>
+</svg>
