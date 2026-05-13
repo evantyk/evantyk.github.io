@@ -10,9 +10,9 @@ title: "Home"
 
 I'm a student interested in data analytics, automation, markets, and building practical things that turn messy information into clear decisions. This site collects a few pieces of work, learning reflections, and personal interests in one clean place.
 
-::: {.button-row}
-[View my project](project.qmd){.btn .btn-primary}
-[See a data visualisation](data-visualization.qmd){.btn .btn-outline}
+::: {.portfolio-button-row}
+[View my project](project.qmd){.portfolio-btn .portfolio-btn-primary}
+[See a data visualisation](data-visualization.qmd){.portfolio-btn .portfolio-btn-outline}
 :::
 :::
 
@@ -23,18 +23,18 @@ I'm a student interested in data analytics, automation, markets, and building pr
 
 ## What this site shows {.section-title}
 
-::: {.grid}
-::: {.card}
+::: {.portfolio-grid}
+::: {.portfolio-card}
 ### Data and automation
 I enjoy using code to reduce repetitive work, test ideas properly, and present outputs in a way that is easy to understand.
 :::
 
-::: {.card}
+::: {.portfolio-card}
 ### Learning by building
 My best learning usually happens when I turn concepts into a real artefact: a dashboard, a report, a small model, or a website like this.
 :::
 
-::: {.card}
+::: {.portfolio-card}
 ### Outside class
 Tennis is one of my favourite hobbies because it combines technique, discipline, timing, and constant improvement.
 :::
@@ -42,15 +42,15 @@ Tennis is one of my favourite hobbies because it combines technique, discipline,
 
 ## Current focus {.section-title}
 
-::: {.grid .two}
-::: {.card}
+::: {.portfolio-grid .portfolio-grid-two}
+::: {.portfolio-card}
 ### What I am improving
 - Building clearer data stories, not just charts.
 - Writing cleaner reports using Quarto.
 - Making technical work presentable to non-technical readers.
 :::
 
-::: {.card}
+::: {.portfolio-card}
 ### What I value in projects
 - Simple structure.
 - Honest explanation of assumptions.

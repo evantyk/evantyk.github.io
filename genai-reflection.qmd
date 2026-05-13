@@ -2,7 +2,7 @@
 title: "GenAI Reflection"
 ---
 
-::: {.page-header}
+::: {.portfolio-page-header}
 # Reflection on the Use of GenAI
 
 A short reflection on how generative AI was used while developing this website.
@@ -14,13 +14,13 @@ I used ChatGPT as a coding and writing assistant while preparing this Quarto por
 
 ## How it helped {.section-title}
 
-::: {.grid .two}
-::: {.card}
+::: {.portfolio-grid .portfolio-grid-two}
+::: {.portfolio-card}
 ### Structure
 GenAI helped turn a vague task into a clear website structure: homepage, project page, data visualisation page, hobbies page, and reflection page.
 :::
 
-::: {.card}
+::: {.portfolio-card}
 ### Presentation
 It helped improve the visual design by suggesting responsive layouts, cards, headings, and cleaner CSS instead of leaving the website as a plain default template.
 :::

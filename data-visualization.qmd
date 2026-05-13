@@ -2,13 +2,13 @@
 title: "Data Visualization"
 ---
 
-::: {.page-header}
+::: {.portfolio-page-header}
 # Data Visualization: Study Workflow Breakdown
 
 A simple visualisation showing how time can be distributed across different stages of a data project.
 :::
 
-::: {.viz-frame}
+::: {.portfolio-viz-frame}
 ![](assets/time-use-chart.svg){fig-alt="Bar chart showing project hours for research, cleaning, coding, visualisation, and writing"}
 :::
 
@@ -20,13 +20,13 @@ The chart breaks one project week into five activities: research, data cleaning,
 
 When people see a finished report, they often only notice the final chart or written answer. In reality, a lot of the work happens before that: deciding what question to answer, preparing data, checking whether the output makes sense, and explaining the result clearly.
 
-::: {.grid .two}
-::: {.card}
+::: {.portfolio-grid .portfolio-grid-two}
+::: {.portfolio-card}
 ### Main takeaway
 A strong data project is not just about producing a graph. It is about making the graph support a clear story.
 :::
 
-::: {.card}
+::: {.portfolio-card}
 ### Design choice
 I used a simple bar chart because the comparison is direct. The viewer can immediately see which parts of the workflow took more time.
 :::

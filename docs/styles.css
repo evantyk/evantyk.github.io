@@ -13,6 +13,7 @@
 }
 
 body {
+  margin: 0;
   background: radial-gradient(circle at top left, #eef3ff 0, transparent 32rem), var(--bg);
   color: var(--text);
   font-size: 17px;
@@ -28,7 +29,10 @@ body {
   letter-spacing: -0.02em;
 }
 
-.quarto-title-block .title {
+#title-block-header,
+.quarto-title-block,
+.quarto-title,
+h1.title {
   display: none;
 }
 
@@ -88,15 +92,15 @@ a {
   box-shadow: 0 16px 38px rgba(57, 87, 232, 0.15);
 }
 
-.button-row {
+.portfolio-button-row {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
   margin-top: 1.5rem;
 }
 
-.btn {
-  display: inline-flex;
+.portfolio-btn {
+  display: inline-flex !important;
   align-items: center;
   justify-content: center;
   min-height: 44px;
@@ -107,12 +111,12 @@ a {
   border: 1px solid transparent;
 }
 
-.btn-primary {
+.portfolio-btn-primary {
   color: #ffffff;
   background: var(--accent);
 }
 
-.btn-outline {
+.portfolio-btn-outline {
   color: var(--text);
   background: #ffffff;
   border-color: var(--line);
@@ -125,17 +129,19 @@ a {
   letter-spacing: -0.04em;
 }
 
-.grid {
-  display: grid;
+.portfolio-grid {
+  display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 }
 
-.grid.two {
+.portfolio-grid.portfolio-grid-two {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.card {
+.portfolio-card {
+  display: block;
+  box-sizing: border-box;
   padding: 1.35rem;
   border-radius: var(--radius);
   background: var(--surface);
@@ -143,18 +149,18 @@ a {
   box-shadow: 0 12px 30px rgba(23, 32, 51, 0.06);
 }
 
-.card h3 {
+.portfolio-card h3 {
   margin-top: 0;
   margin-bottom: 0.35rem;
   letter-spacing: -0.02em;
 }
 
-.card p,
-.card li {
+.portfolio-card p,
+.portfolio-card li {
   color: var(--muted);
 }
 
-.page-header {
+.portfolio-page-header {
   padding: 2.4rem;
   border-radius: 30px;
   background: linear-gradient(135deg, #172033 0%, #263965 100%);
@@ -163,20 +169,20 @@ a {
   margin-bottom: 1.4rem;
 }
 
-.page-header h1 {
+.portfolio-page-header h1 {
   margin: 0;
   font-size: clamp(2.1rem, 6vw, 4rem);
   letter-spacing: -0.05em;
   line-height: 1;
 }
 
-.page-header p {
+.portfolio-page-header p {
   max-width: 70ch;
   color: #dbe4ff;
   margin-bottom: 0;
 }
 
-.callout-box {
+.portfolio-callout-box {
   padding: 1.2rem 1.35rem;
   border-radius: 20px;
   background: #eefcf9;
@@ -185,12 +191,12 @@ a {
   font-weight: 650;
 }
 
-.timeline {
+.portfolio-timeline {
   display: grid;
   gap: 0.9rem;
 }
 
-.timeline-item {
+.portfolio-timeline-item {
   display: grid;
   grid-template-columns: 120px minmax(0, 1fr);
   gap: 1rem;
@@ -200,11 +206,11 @@ a {
   border: 1px solid var(--line);
 }
 
-.timeline-item strong {
+.portfolio-timeline-item strong {
   color: var(--accent);
 }
 
-.viz-frame {
+.portfolio-viz-frame {
   padding: 1rem;
   border-radius: 28px;
   background: #ffffff;
@@ -213,7 +219,7 @@ a {
   overflow: hidden;
 }
 
-.viz-frame img {
+.portfolio-viz-frame img {
   width: 100%;
   height: auto;
   display: block;
@@ -224,14 +230,14 @@ a {
   font-size: 0.95rem;
 }
 
-.tag-list {
+.portfolio-tag-list {
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
   margin-top: 1rem;
 }
 
-.tag {
+.portfolio-tag {
   border-radius: 999px;
   padding: 0.35rem 0.7rem;
   background: var(--surface-2);
@@ -246,14 +252,14 @@ a {
   }
 
   .hero,
-  .grid,
-  .grid.two,
-  .timeline-item {
+  .portfolio-grid,
+  .portfolio-grid.portfolio-grid-two,
+  .portfolio-timeline-item {
     grid-template-columns: 1fr;
   }
 
   .hero,
-  .page-header {
+  .portfolio-page-header {
     padding: 1.5rem;
     border-radius: 24px;
   }
@@ -262,11 +268,11 @@ a {
     order: -1;
   }
 
-  .button-row {
+  .portfolio-button-row {
     flex-direction: column;
   }
 
-  .btn {
+  .portfolio-btn {
     width: 100%;
   }
 }
